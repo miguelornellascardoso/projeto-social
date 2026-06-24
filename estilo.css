@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: green url(imagens/wall-black.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+section#cel {
+    background-image: url(imagens/mobile.png);
+    background-repeat: no-repeat;
+    width: 311px;
+    height: 627px;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section#app {
+    text-align: right; 
+}
+section#app a {
+    color: rgb(128, 126, 126);
+}
+section#app  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.600);
+    box-sizing: border-box;
+} 
+section#app img:hover {
+    position: relative;
+    transform: translate(-5px,-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    border:3px solid white;
+    transition: border 1s, transform .8s,box-shadow .9s;
+}
+
