@@ -28,6 +28,13 @@ section#cel {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#tela {
+    position: relative;
+    top: 61px;
+    left: 14px;
+    width: 281px;
+    height: 496px;
+}
 section#app {
     text-align: right; 
 }
